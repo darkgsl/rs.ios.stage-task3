@@ -1,5 +1,10 @@
 #import "LevelOrderTraversal.h"
+#import "Tree.h"
 
 NSArray *LevelOrderTraversalForTree(NSArray *tree) {
-    return nil;
+  if (!tree || tree.count == 0) {
+    return  @[];
+  }
+  return  nil;;
 }
+  
